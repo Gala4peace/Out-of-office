@@ -1,2 +1,71 @@
-h1 {font-family: 'Pacifico', cursive;
-    color: 'purple'}
+h1 {font-family: 'Roboto';
+    font-size: : 100px;
+    color: black;
+    width: 350px;
+    background-color: white;
+    float: left;}
+
+body {background-color: #cbf78a;}
+
+p {font-family: "Roboto" ;
+    font-size: 30px;
+    }
+
+.nav {
+      width: 400px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      float: right;
+      }
+
+li {
+      display: inline;
+        }
+
+li a {
+        font-family: "Roboto";
+        font-size: 13px;
+        color: #5d5e5d
+        display: block;
+        padding: 10px;
+        background-color: #ffffff;
+        }
+
+
+.wrapper {
+      width: 620px;
+      height: 310px;
+      margin: 0;
+      padding: 0px,10px,10px,0px;
+      border: none;
+    }
+
+.box {
+      width: 290px;
+      height: 280px;
+      margin: 0;
+      padding: 6px 6px;
+      font: 35px "Roboto", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+.boxLeft {
+      float: left;
+      background-color: white;
+      outline: 4px solid #fafcf7;
+      outline-width: thin;
+      color: black;
+    }
+
+.boxRight {
+      float: right;
+      background-color: white;
+      outline: 4px solid #fafcf7;
+      outline-width: thin;
+      color: black;
+      border: 2px;
+
+    }
