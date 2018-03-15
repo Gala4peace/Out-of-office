@@ -5,21 +5,24 @@ h1 {font-family: 'Roboto';
     float: left;}
 
 h2 {font-family: 'Roboto';
-    font-size: 15px;
+    font-size: 25px;
     color: #5d5e5d;
     }
 
 h3 {
     font-family: 'Roboto';
-    font-size: 13px;
+    font-size: 20px;
     color: #5d5e5d;
         }
 
 body {background-color: #cbf78a;}
 
 p {font-family: "Roboto" ;
-    font-size: 10px;
+    font-size: 15px;
     }
+
+.container-fluid  {padding:70px;
+                  background-color: white;}
 
 
 
@@ -48,6 +51,7 @@ p {font-family: "Roboto" ;
       padding:20px;
 
 }
+.card mb-4 box-shadow {padding: 15px;}
 
 
 .button1 {
@@ -56,15 +60,59 @@ p {font-family: "Roboto" ;
       border: 2px solid #ff87e5; /* Pink */;
       border-radius: 25px;
       padding: 10px  40px;
-      margin: 15px;
+      margin: 15px auto;
       -webkit-transition-duration: 0.4s; /* Safari */
       transition-duration: 0.4s;
 }
+
+.button2 {
+      background-color: white;
+      color: #ff87e5;
+      border: 2px solid #ff87e5; /* Pink */;
+      border-radius: 25px;
+      padding: 10px  40px;
+
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      margin: 5px;
+}
+
+
+.card {
+
+  padding: 0 0 22px 0;
+  min-height: 400px;
+  height: auto;
+      text-align: center;
+
+}
+
+.card-text {
+  min-height: 75px;
+}
+
+.card-title,
+.card-text {
+  text-align: left;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+
+
 
 .button1:hover {
       text-decoration: none;
       background-color: #ff87e5;
       color: white;
+}
+
+.button2:hover {
+      text-decoration: none;
+      background-color: #ff87e5;
+      color: white;
+      margin: 5px;
 }
 
 li {
@@ -121,6 +169,7 @@ li a {
         background-color: white;
         width: 300px;
         height: 300px;
+        padding: 10px;
 
         }
 
@@ -132,12 +181,3 @@ li a {
     padding: 2px 16px;
 
     }
-
-
-.food-venues {
-      width: 100%;
-      margin: 30px, 0px, 0px, 0px,;
-      align: center;
-      padding: 0px,10px,10px,0px;
-      border: none;
-      float:left;}
