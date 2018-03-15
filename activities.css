@@ -1,0 +1,26 @@
+a {
+  color: #5d5e5d;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  text-align: center;
+  padding: 0 0 22px 0;
+  height: 375px;
+}
+
+.card-title {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.card-text {
+  font-size: 14px;
+  width: 80%;
+  margin: 7px auto 25px;
+  height: 60px;
+}
